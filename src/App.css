@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.secao {
+  background-color: #d4ac1b;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 100px;
+ 
+  .header-logo{ 
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 100%;
+    .eagles {
+    height: 90px;
+    width: 140px;
+
+  }
+  h2{
+    margin: auto 0px;
+  }
+  .header-search{
+    display: flex;
+    gap: 15px;
+    margin: auto;
+  .search{
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 400px;
+    border: solid 1px black;
+    }
+    .icon-search{
+      position: relative;
+      right: 40px;
+      top: 7px;
+      width: 22px;
+    }
+
+    .button-enter{
+      
+      display: flex;
+      background-color: #ffffff;
+      gap: 10px;
+      padding: 10px;
+      height: 40px;
+      border-radius: 14px;
+      border: solid 1px black;
+      cursor: pointer;
+
+      &:hover{
+        background-color: #D9D9D9;
+        transition: 0.5s;
+        
+      }
+     
+    }
+  }
+
+  }
+  
+  .header-icons{
+   
+    display: flex;
+    gap: 20px;
+
+    .icon{
+      width: 25px;
+      cursor: pointer;
+      
+    }
+
+  }
+ 
+}
+.container{
+
+  .CapaEaglese{
+    width: 100%;
+  }
+
+}
