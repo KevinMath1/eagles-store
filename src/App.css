@@ -58,6 +58,7 @@
         transition: 0.5s;
         
       }
+      
      
     }
   }
@@ -82,6 +83,90 @@
 
   .CapaEaglese{
     width: 100%;
+    
   }
 
 }
+
+
+.secao2{
+
+  .shoes02{
+   width: 100%;
+   
+}
+}
+.container02{
+  background-color: aqua;
+  display: flex;
+  gap: 64px;
+  width: 100%;
+  
+ 
+  
+  img{  
+width: 400px;
+justify-content: center;
+position: relative;
+padding: 50px;
+left: 11%;
+top: -680px;
+
+
+  }
+}
+.texto{
+  background-color: #d41b1b;
+  display: flex;
+  gap: 240px;
+  justify-content: center;
+  margin-top: -660px;
+  line-height: 160%;
+
+p{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:smaller;
+  color: rgb(61, 61, 61);
+
+}
+.Pre{
+  color: #6d6c6c;
+  font-size: smaller;
+
+ }
+}
+
+.secao3{
+position:relative;
+top: 279px;
+  
+.pro{
+  width: 100%;
+  
+}
+.comp{
+
+  color: white;
+  position:absolute;
+  cursor: pointer;
+  background-color: #0097B2;
+ 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  padding: 10px 80px;
+  border-radius: 44px;
+  width: 400px;
+  height: 80px;
+  left: 58%;
+  top:77% ;
+
+  &:hover{
+    background-color: #a08a26;
+    transition: 0.5s;
+    
+  }
+  
+
+ }
+}
+

@@ -1,4 +1,6 @@
 import "./App.css";
+import Navbar from "./componentes/navbar";
+import Cards from "./componentes/cards";
 import Logo from "./img/eagles.png";
 import Capa from "./img/CapaEagles.jpg";
 import Heart from "./img/heart.svg";
@@ -6,42 +8,37 @@ import Bell from "./img/bell.svg";
 import Shopping from "./img/shopping-bag.svg";
 import User from "./img/user.svg";
 import Seach from "./img/seach.svg";
+import ReactDOM from "react-dom/client";
+import ShoesCapa from "./img/shoes02.jpg";
 
-export function App() {
+import Pro from "./img/pro.jpg";
+
+function App() {
   return (
-    <header>
-      <body>
-        <section className="secao">
-          <div className="header-logo">
-            <img className="eagles" src={Logo} />
-            <h2>Eagles</h2>
+    <div className="App">
+      <Navbar
+        logo={Logo}
+        search={Seach}
+        user={User}
+        shopping={Shopping}
+        bell={Bell}
+        heart={Heart}
+      />
 
-            <div className="header-search">
-              <div>
-                <input className="search" placeholder="O que você procura ? " ></input>
-                <img className="icon-search" src={Seach} />
-                
-              </div>
-              <div className="button-enter">
-                <img className="icon " src={User} alt="Ícone do usuário" />
-                <p>Entrar</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="header-icons">
-            <img className="icon" src={Shopping} />
-            <img className="icon" src={Bell} />
-            <img className="icon" src={Heart} />
-          </div>
-        </section>
-
-        <div className="container">
-          <img className="CapaEaglese" src={Capa} />
+      <section className="container">
+        <div>
+          <img className="CapaEaglese" src={Capa} alt="capa da tela 1" />
         </div>
-      </body>
-    </header>
+        <div>
+          <Cards></Cards>
+        </div>
+        <div>
+          <img className="CapaEaglese" src={Pro} alt="capa da tela 1" />
+        </div>
+      </section>
+    </div>
   );
 }
 
 export default App;
+//export const root = ReactDOM.createRoot(document.getElementById("root"));
