@@ -1,6 +1,8 @@
 // Navbar.js
 
 import React from "react";
+import "../navbar/navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar(props) {
   return (
@@ -18,7 +20,9 @@ function Navbar(props) {
               </div>
               <div className="button-enter">
                 <img className="icon " src={props.user} alt="Ícone do usuário" />
-                <p>Entrar</p>
+                <Link className="link" to="/login">
+                  Entrar
+                </Link>
               </div>
             </div>
           </div>

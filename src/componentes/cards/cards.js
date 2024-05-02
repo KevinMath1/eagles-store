@@ -1,8 +1,8 @@
 import React from "react";
-import "./styles/Cards.css";
-import ShoesPink from "../img/shoespink.png";
-import ShoesBlack from "../img/shoesblack.png";
-import Shoeswith from "../img/shoeswith.png";
+import "../cards/Cards.css";
+import ShoesPink from "../../img/shoespink.png";
+import ShoesBlack from "../../img/shoesblack.png";
+import Shoeswith from "../../img/shoeswith.png";
 
 function Cards(props) {
   return (
