@@ -21,7 +21,7 @@ function Cards01(props) {
 
         <div className="container02">
           <div className="container02-title">
-            <h1>Assine nossa Newsletter</h1>
+            <h1>Receba as nossas ofertas</h1>
             <br></br>
             <div className="header-email">
               <input className="email" placeholder="E-mail... "></input>
