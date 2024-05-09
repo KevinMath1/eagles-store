@@ -1,6 +1,9 @@
 import React from "react";
 import Navbar from "../componentes/navbar/navbar";
 import Cards from "../componentes/cards/cards";
+import Content from "../componentes/content/cards01";
+import Footer from "../componentes/footer/cards02";
+
 import Logo from "../img/eagles.png";
 import Capa from "../img/CapaEagles.jpg";
 import Heart from "../img/heart.svg";
@@ -31,6 +34,12 @@ function Home() {
         </div>
         <div>
           <img className="CapaEaglese" src={Pro} alt="capa da tela 1" />
+        </div>
+        <div>
+          <Content></Content>
+        </div>
+        <div>
+          <Footer></Footer>
         </div>
       </section>
     </div>

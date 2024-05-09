@@ -31,7 +31,6 @@ function Navbar(props) {
             <img className="icon" src={props.bell} alt="icone de sino" />
             <img className="icon" src={props.heart} alt="icone de coração" />
           </div>
-          -
         </nav>
       </body>
     </header>
