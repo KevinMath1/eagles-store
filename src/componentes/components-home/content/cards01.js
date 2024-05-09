@@ -1,6 +1,6 @@
 import React from "react";
-import "../content/cards01.css";
-import Eagles from "../../img/eagles.png";
+import "./cards01.css";
+import Eagles from "../img/eagles.png";
 
 function Cards01(props) {
   return (

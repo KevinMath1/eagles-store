@@ -80,7 +80,40 @@
     width: 100%;
     
   }
+}
 
+@media (max-width: 1080px) {
+  .header-search{
+  .search{
+    width: 230px !important;
+    }
+}}
+
+@media (max-width: 768px) {
+  .header-search{
+  .search{
+    width: 200px !important;
+    }
+}
+.header-logo{ 
+  align-items: center !important;
+    .eagles {
+    height: 60px !important;
+    width: 100px !important;
+  } 
+  h2{
+    font-size: 18px !important;
+  }
 }
 
 
+
+
+.header-search{
+  .button-enter{
+    .link {
+      font-size: 14px !important;
+    }
+  }
+}
+}

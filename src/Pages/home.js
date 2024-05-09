@@ -1,17 +1,17 @@
 import React from "react";
-import Navbar from "../componentes/navbar/navbar";
-import Cards from "../componentes/cards/cards";
-import Content from "../componentes/content/cards01";
-import Footer from "../componentes/footer/cards02";
+import Navbar from "../componentes/components-home/navbar/navbar";
+import Cards from "../componentes/components-home/cards/cards";
+import Content from "../componentes/components-home/content/cards01";
+import Footer from "../componentes/components-home/footer/cards02";
 
-import Logo from "../img/eagles.png";
-import Capa from "../img/CapaEagles.jpg";
-import Heart from "../img/heart.svg";
-import Bell from "../img/bell.svg";
-import Shopping from "../img/shopping-bag.svg";
-import User from "../img/user.svg";
-import Seach from "../img/seach.svg";
-import Pro from "../img/pro.jpg";
+import Logo from "../componentes/components-home/img/eagles.png";
+import Capa from "../componentes/components-home/img/CapaEagles.jpg";
+import Heart from "../componentes/components-home/img/heart.svg";
+import Bell from "../componentes/components-home/img/bell.svg";
+import Shopping from "../componentes/components-home/img/shopping-bag.svg";
+import User from "../componentes/components-home/img/user.svg";
+import Seach from "../componentes/components-home/img/seach.svg";
+import Pro from "../componentes/components-home/img/pro.jpg";
 
 function Home() {
   return (
