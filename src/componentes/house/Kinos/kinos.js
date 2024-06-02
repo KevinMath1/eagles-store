@@ -1,4 +1,4 @@
-import './index.css';
+import './kinos.css';
 import Foto from './img/eagles.png';
 import Img from './img/pretoebranco.png';
 import Rosa from './img/black-background.png';
