@@ -1,5 +1,5 @@
 
-import './login.css'
+import './logar.css';
 
 import Logo from "../../Pages/image/eagles.43967f06d9e3d7568d7f.png";
 
