@@ -1,0 +1,60 @@
+
+.Cont {
+    flex-direction: row;
+    display: flex;
+    width: 1280px;
+    background: linear-gradient(115.23deg, #D5AC1B 38.06%, #6E590E 100.56%);
+    
+    gap: 200px;
+    height: 630px;
+  }
+    .Main img {
+      display: block;
+      width: 150px;
+      padding-top: 20px;
+      
+      
+    }
+    .Main {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      height: 630px;
+      background-color: rgb(218, 221, 221);
+      gap: 30px;
+      align-items: center;
+    }
+    .Main > button {
+      display: flex;
+      flex-direction: column;
+      width: 100px;
+      padding: 10px;
+      align-items: center;
+      border-radius: 20px;
+      border-style:none;
+    
+    }
+    .Main > button:hover {
+      cursor: pointer;
+      background-color: black;
+      color: white;
+    }
+
+    .Retorno{
+      background-color: blue; 
+    }
+
+    .App {
+        flex-direction: column;
+        display: flex;
+        width: 600px;
+        padding: 50px 50px;
+        gap: 10px;
+        
+      }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    
