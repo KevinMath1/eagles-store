@@ -1,4 +1,4 @@
-import './App.css';
+import './teladebuttons.css';
 
 import Logo from './img/eagles.png'
 

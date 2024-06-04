@@ -1,4 +1,4 @@
-import './index.css';
+import './Tenisflowers.css';
 import Foto from './img/eagles.png';
 import Img from './img/sapatos-de-mulher.png';
 import Rosa from './img/Rosa.jpg';

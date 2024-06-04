@@ -1,0 +1,144 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background: #D5AC1B;
+}
+.mae {
+  display: flex; /* Define o display flex para os elementos filhos */
+}
+.play {
+  flex: 1; 
+  background-color: #ccc;
+  flex-direction: column; /* Empilha os elementos filhos verticalmente */
+  align-items: center; /* Centraliza os elementos horizontalmente */
+  justify-content: center; /* Centraliza os elementos verticalmente */
+  padding: 0px;
+}
+/* Estilos para a div "App" */
+.App {
+  padding: 30px;
+  flex: 2; /* A div "App" ocupará o dobro do espaço da div "play" */
+  display: flex; /* Define o display flex para os elementos filhos */
+  flex-direction: column; /* Empilha os elementos filhos verticalmente */
+  align-items: center; /* Centraliza os elementos horizontalmente */
+  justify-content: center; /* Centraliza os elementos verticalmente */
+width: 800px;
+}
+/* Restante dos estilos permanecem inalterados */
+.form-group {
+  display: flex;
+  align-items: center;
+  width: 100%; /* Define a largura total */
+  margin-bottom: 10px;
+}
+.label-container {
+  width: 294px; /* Define a largura do container do label */
+  height: 45px; /* Define a altura do container do label */
+}
+.label-container label {
+  display: block; /* Para ocupar toda a largura do container */
+  width: 100%; /* Para ocupar toda a largura do container */
+  height: 100%; /* Para ocupar toda a altura do container */
+  padding: 10px; /* Adiciona um preenchimento interno */
+  border-radius: 3px; /* Adiciona borda arredondada */
+  box-sizing: border-box; /* Garante que o preenchimento não aumente a largura/altura */
+}
+.form-group input {
+  flex: 2; /* Distribui o espaço igualmente entre os elementos <input> */
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+.botao {
+  background-color: rgba(0, 160, 253, 0.801);
+  color: white;
+  border-radius: 1000px;
+  margin: 20px;
+  width: 100px;
+  height: 40px;
+ 
+}
+.botao1{
+
+  background-color: rgba(0, 160, 253, 0.801);
+
+  color: white;
+  border-radius: 1000px;
+  
+  width: 100px;
+  height: 40px;
+
+}
+.botao2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:  rgba(0, 160, 253, 0.801);
+  color: white;
+  border-radius: 1000px;
+  width: 100px;
+  height: 40px;
+  margin: 20px;
+
+}
+.buttons{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  width: 294px; /* Define a largura do container do label */
+  height: 45px; /* Define a altura do container do label */
+}
+.img{
+border: 40px;
+padding: 50px;
+}
+.botoes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 300px;
+  
+ 
+
+}
+
+.botoes1{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+  margin-left: 700px;
+}
+
+.botao0{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: rgb(0, 0, 0);
+    border-radius: 1000px;
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+  
+}
+
+.botao01{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border-radius: 1000px;
+  width: 100px;
+  height: 40px;
+  margin: 20px;
+  position: relative;
+  left: 20px;
+
+}

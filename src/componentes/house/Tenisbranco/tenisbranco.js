@@ -1,4 +1,4 @@
-import './index.css';
+import './tenisbranco.css';
 import Foto from './img/eagles.png';
 import Img from './img/par branco.png';
 import Rosa from './img/download.jpeg';
