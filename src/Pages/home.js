@@ -25,6 +25,7 @@ function Home() {
         heart={Heart}
       />
 
+
       <section className="container">
         <div>
           <img className="CapaEaglese" src={Capa} alt="capa da tela 1" />
