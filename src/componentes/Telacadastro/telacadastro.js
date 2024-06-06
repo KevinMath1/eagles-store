@@ -27,7 +27,7 @@ function Cadastrar() {
     };
 
     try {
-      const response = await axios.post("http://20.206.240.6:5010/produto", produto);
+      const response = await axios.post("http://20.206.240.6:3000/produto", produto);
       console.log("Produto cadastrado:", response.data);
       setCodigoProduto("");
       setMarcaProduto("");
