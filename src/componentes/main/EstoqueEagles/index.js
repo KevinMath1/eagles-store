@@ -10,7 +10,7 @@ function EstoqueEagles() {
 
   const fetchProdutos = async () => {
     try {
-      const response = await axios.get("http://localhost:5010/produto");
+      const response = await axios.get("http://20.206.240.6:5010/produto");
       console.log(response.data);
       setProdutos(response.data);
     } catch (error) {
@@ -24,7 +24,7 @@ function EstoqueEagles() {
 
   const handleDelete = async (id) => {
     try {
-      const response = await axios.delete(`http://localhost:5010/produto/${id}`);
+      const response = await axios.delete(`http://20.206.240.6:5010/produto/${id}`);
       console.log("Produto deletado com sucesso!", response.data);
       await fetchProdutos();
     } catch (error) {

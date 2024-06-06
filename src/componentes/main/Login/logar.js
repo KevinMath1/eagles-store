@@ -13,7 +13,7 @@ function Login() {
   const handleLogin = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.post("http://localhost:5010/login", {
+      const response = await axios.post("http://20.206.240.6:5010/login", {
         usuario: usuario,
         senha: senha,
       });
