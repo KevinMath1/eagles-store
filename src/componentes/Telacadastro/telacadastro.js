@@ -60,6 +60,7 @@ function Cadastrar() {
             handleSubmit();
           }}
         >
+        
           <div className={styles["form-group"]}>
             <div className={styles["label-container"]}>
               <label htmlFor="codigo_produto">Código do produto:</label>
