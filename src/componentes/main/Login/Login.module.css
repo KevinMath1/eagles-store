@@ -6,10 +6,12 @@
   background: linear-gradient(115.23deg, #d5ac1b 38.06%, #6e590e 100.56%);
   padding: 117px 150px;
   gap: 200px;
+  height: 100vh;
 }
 
 .Esquerdo {
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: 150px;
   gap: 50px;
 }
@@ -17,29 +19,37 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100px;
+  width: 100%;
   align-items: start;
 }
 .Esquerdo p {
-  width: 30px;
+  width: 46px;
   height: 250px;
   margin-left: 50px;
   writing-mode: vertical-rl;
   text-orientation: upright;
   margin-top: 40px;
-  font-size: 30px;
+  font-size: 40px;
   font-family: "Alfa Slab One", serif;
   font-weight: 400;
   font-style: normal;
 }
 .Main {
+  display: flex;
   flex-direction: column;
-  width: 500px;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 70%;
+  gap: 30px;
+
 }
+
 h1 {
   text-align: center;
   margin-bottom: 10px;
 }
+
 .Login {
   display: flex;
   flex-direction: column;
@@ -60,25 +70,33 @@ h1 {
 .Botoes {
   display: flex;
   flex-direction: column;
+  align-items: center;
+
   width: 480px;
   padding: 10px;
   gap: 10px;
-  align-items: center;
 }
 
 .Botoes > button {
   display: flex;
-  width: 80px;
-  height: 30px;
+  flex-direction: column;
   align-items: center;
+  width: 80px;
+  height: 26px ;
   gap: 10px;
   border-radius: 20px;
   background-color: rgb(23, 142, 179);
   color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Botoes > button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
 }
 
 .ErroMensagem {
-  color: red; 
+  color: red;
   margin: 10px 0;
 }
-

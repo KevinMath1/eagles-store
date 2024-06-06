@@ -47,8 +47,9 @@ function EstoqueEagles() {
         <div className={styles.card}>
           <div className={styles.card_content}>
             <p>Nome</p>
-            <p>quantidade</p>
-            ação
+            <p>Quantidade</p>
+            <p>Preço</p>
+            <p>ação</p>
           </div>
         </div>
         {produtos.length > 0 ? (
@@ -57,6 +58,7 @@ function EstoqueEagles() {
               <div className={styles.card_content}>
                 <p>{produto.nome_produto}</p>
                 <p>{produto.unidade}</p>
+                <p>{produto.preco}</p>
                 <div className={styles.card_action}>
                   <span onClick={() => handleDelete(produto.codigo_produto)}>deletar</span>
                 </div>

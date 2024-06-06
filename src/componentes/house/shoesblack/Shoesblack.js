@@ -30,9 +30,9 @@ function Shoesblack() {
         <div class="move">
           <img className="img2" src={Img}></img>
         </div>
-        <p className="Grupo">Feminino / calçados / Esportivo</p>
+        <p className="Grupo">Masculino / calçados / Esportivo</p>
 
-        <h1 Class="Grupo2">Tenis Casual: Masculino Nubulos AS</h1>
+        <h1 Class="Grupo2">Tenis Esportivo: Masculino Nubulos AS</h1>
       </div>
 
       <div class="container3">
@@ -42,7 +42,7 @@ function Shoesblack() {
         </div>
 
         <p Class="Grupo5">Cor black</p>
-
+        <br></br>
         <img className="img3" src={Rosa}></img>
       </div>
 

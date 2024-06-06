@@ -40,6 +40,7 @@ function Minus() {
           <p>5x de R$ 55,98</p>
         </div>
         <p className="Grupo5">Cor pink</p>
+        <br></br>
         <img className="img3" src={Rosa} alt="Cor Rosa"></img>
       </div>
 

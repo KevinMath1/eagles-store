@@ -42,7 +42,7 @@ function Kinos() {
         </div>
 
         <p Class="Grupo5">Cor black</p>
-
+        <br></br>
         <img className="img3" src={Rosa}></img>
       </div>
 

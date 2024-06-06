@@ -42,6 +42,7 @@ function Finity() {
         </div>
 
         <p Class="Grupo5">Cor White</p>
+        <br></br>
 
         <img className="img3" src={Rosa}></img>
       </div>

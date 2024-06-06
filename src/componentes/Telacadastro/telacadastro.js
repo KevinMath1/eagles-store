@@ -42,7 +42,9 @@ function Cadastrar() {
   return (
     <div className={styles.mae}>
       <div className={styles.play}>
-        <img class="img" src={foto} width={150} height={100} alt="login"></img>
+        <br></br>
+        <br></br>
+        <img class="imgs" src={foto} width={150} height={100} alt="login"></img>
         <div className={styles.buttons}>
           <button className={styles.botao0} onClick={() => navigate("/estoque")}>
             Estoque
@@ -54,13 +56,15 @@ function Cadastrar() {
       </div>
       <div className={styles.App}>
         <h1>Cadastrar Novo Produto</h1>
+        <br></br>
+        <br></br>
+
         <form
           onSubmit={(e) => {
             e.preventDefault();
             handleSubmit();
           }}
         >
-        
           <div className={styles["form-group"]}>
             <div className={styles["label-container"]}>
               <label htmlFor="codigo_produto">Código do produto:</label>

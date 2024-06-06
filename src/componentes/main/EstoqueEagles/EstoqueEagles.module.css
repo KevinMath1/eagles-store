@@ -54,16 +54,34 @@
   border-left: 5px solid #007bff;
   border-radius: 4px;
 }
+.card span{
+  color: #000000;
+  background-color: #007bff;
+  border-radius: 8px;
+  width: 60px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
 
 .card p {
   margin: 0;
   font-size: 16px;
   color: #333;
+ 
 }
 
 .card_content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  
 }
 
 .card_action{
@@ -84,3 +102,4 @@ h1 {
   text-align: center;
   margin-bottom: 10px;
 }
+
