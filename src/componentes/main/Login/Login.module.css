@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
+.App {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(115.23deg, #d5ac1b 38.06%, #6e590e 100.56%);
+  padding: 117px 150px;
+  gap: 200px;
+}
+
+.Esquerdo {
+  display: block;
+  width: 150px;
+  gap: 50px;
+}
+.Esquerdo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  align-items: start;
+}
+.Esquerdo p {
+  width: 30px;
+  height: 250px;
+  margin-left: 50px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  margin-top: 40px;
+  font-size: 30px;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.Main {
+  flex-direction: column;
+  width: 500px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.Login {
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  padding: 10px;
+  gap: 10px;
+  align-items: center;
+}
+
+.Login > input {
+  display: flex;
+  width: 250px;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 20px;
+}
+
+.Botoes {
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  padding: 10px;
+  gap: 10px;
+  align-items: center;
+}
+
+.Botoes > button {
+  display: flex;
+  width: 80px;
+  height: 30px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  background-color: rgb(23, 142, 179);
+  color: white;
+}
+
+.ErroMensagem {
+  color: red; 
+  margin: 10px 0;
+}
+

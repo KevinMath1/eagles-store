@@ -1,0 +1,126 @@
+.mae {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background: #d5ac1b;
+}
+.play {
+  display: flex;
+  background-color: #ccc;
+  flex-direction: column;
+}
+.App {
+  padding: 30px;
+  flex: 2; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+  width: 800px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  width: 100%; 
+  margin-bottom: 10px;
+}
+.label-container {
+  width: 294px; 
+  height: 45px;
+}
+.label-container label {
+  display: block;
+  width: 100%;
+  height: 100%; 
+  padding: 10px;
+  border-radius: 3px;
+  box-sizing: border-box; 
+}
+.form-group input {
+  flex: 2;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.botao {
+  background-color: rgba(0, 160, 253, 0.801);
+  color: white;
+  border-radius: 1000px;
+  margin: 20px;
+  width: 100px;
+  height: 40px;
+}
+.botao1 {
+  background-color: rgba(0, 160, 253, 0.801);
+  color: white;
+  border-radius: 1000px;
+  width: 100px;
+  height: 40px;
+}
+.botao2 {
+  display: flex;
+  align-items: center;
+  margin: 0px auto;
+  justify-content: center;
+  background-color: rgba(0, 160, 253, 0.801);
+  color: white;
+  border-radius: 1000px;
+  width: 100px;
+  padding: 20px;
+  height: 40px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  width: 294px;
+  height: 45px;
+  gap: 20px;
+}
+.img {
+  border: 40px;
+  padding: 50px;
+}
+.botoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 300px;
+}
+
+.botoes1 {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+  margin-left: 700px;
+}
+
+.botao0 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  border-radius: 1000px;
+  width: 100px;
+  height: 40px;
+  margin: 0px auto;
+  padding: 20px;
+}
+
+.botao01 {
+  display: flex;
+  align-items: center;
+  margin: 0px auto;
+  justify-content: center;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border-radius: 1000px;
+  width: 100px;
+  height: 40px;
+  padding: 20px;
+  position: relative;
+}

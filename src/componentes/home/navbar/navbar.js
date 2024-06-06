@@ -23,6 +23,8 @@ function Navbar(props) {
                 <Link className="link" to="/login">
                   Entrar
                 </Link>
+
+     
               </div>
             </div>
           </div>
